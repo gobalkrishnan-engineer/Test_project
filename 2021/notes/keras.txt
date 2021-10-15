@@ -1,0 +1,240 @@
+Model API 
+---------
+
+1. The Model class 
+   1. Model class
+      1. inputs 
+      2. outputs 
+      3. name 
+      ==> There are 2 ways to instantiate a Model:
+          1. With the "Functional API"
+          2. By subclassing the Model class     
+
+   2. summary method 
+      1. Arguments: 
+         1. line_length 
+         2. positions
+         3. print_fn
+      2. Raises 
+         1. ValueError
+  
+   3. get_layer method
+      1. Arguments
+         1. name 
+         2. index 
+      2. Returns 
+         A layer instance
+      3. Raises 
+         1. ValueError
+         
+2. The Sequential class 
+   1. Sequential class
+      - tf.keras.Sequential(layers = None, name = None)
+   2. add method 
+      - Argument: 
+        1. layer
+      - Raises: 
+        1. TypeError
+        2. ValueError
+        3. ValueError
+   3. pop method
+      -Sequential.pop()
+      raises:
+        1. TypeError:
+3. Model training APIs
+   1. compile method
+   2. fit method 
+   3. evaluate method 
+   4. predict method 
+   5. train_on_batch method 
+   6. test_on_batch method 
+   7. predict_on_batch method 
+   8. run_eagerly_property
+
+4. Model saving & serialization APIs
+   1. save method
+   2. save_model function
+   3. load_model function 
+   4. get_weights method 
+   5. set_weights method
+   6. save_weights method 
+   7. load_weights method  
+   8. get_config method 
+   9. from_config method 
+   10. model_from_config function  
+   11. to_json method 
+   12. model_from_json_function
+   13. clone_model function
+
+
+2. Layer API 
+============
+
+1. The base Layer class 
+   1. Layers class
+   2. weights property
+   3. trainable_weights property
+   4. non_trainable_weights property
+   5. trainable property
+   6. get_weights method 
+   7. set_weights method 
+   8. get_config method 
+   9. add_loss method 
+   10. add_metric method 
+   11. losses property
+   12. metrics property
+   13. dynamic property
+2. Layer activations 
+   1. Usage of activations 
+   2. Available activations 
+      1. relu function
+      2. sigmoid function
+      3. softmax function
+      4. softplus function
+      5. softsign function
+      6. tanh function
+      7. selu function
+      8. elu function
+      9. exponential function
+   3. Creating custom activations
+   4. About "advanced activation" layers
+3. Layer weight initializers
+   1. Usage of initializers 
+   2. Available initializers
+      1. RandomNormal class
+      2. RandomUniform class
+      3. TruncatedNormal class
+      4. Zeros class
+      5. Ones class
+      6. GlorotNormal class
+      7. GlorotUniform class 
+      8. HeNormal class
+      9. HeUniform class 
+      10. Identity class 
+      11. Orthogonal class
+      12. Constant class 
+      13. varienceScaling class
+   3. Creating custom initializers
+      1. Simple callables
+      2. Initializer subclasses
+4. Layer weight regularizers 
+   1. Available regularizers
+      1. L1 class
+      2. L2 class
+      3. l1_l2 class
+   2. Creating custom regularizers
+      1. Simple callables 
+      2. Regularizer subclasses 
+5. Layer weight constraints 
+   1. Usage of constraints 
+   2. Available weight constraints
+      1. MaxNorm class
+      2. MinMaxNorm class
+      3. NonNeg class
+      4. RadialConstraint Class
+   3. Creating custom weight constraints
+6. Core layers 
+   1. Input object
+   2. Dense layer
+   3. Activation layer
+   4. Embedding layer 
+   5. Masking layer
+   6. Lambda layer
+7. Convolution layers 
+   1. Conv1D layer
+   2. Conv2D layer 
+   3. Conv3D layer
+   4. SeparableConv1D layer
+   5. SeparableConv2D layer
+   6. DepthwiseConv2D layer
+   7. Conv2DTranspose layer 
+   8. Conv3DTranspose layer
+8. Pooling layers 
+   1. MaxPooling1D layer
+   2. MaxPooling2D layer 
+   3. MaxPooling3D layer
+   4. AveragePooling1D layer
+   5. AveragePooling2D layer
+   6. AveragePooling3D layer
+   7. GlobalMaxPooling1D layer
+   8. GlobalMaxPooling2D layer
+   9. GlobalMaxPooling3D layer
+   10. GlobalAveragePooling1D layer
+   11. GlobalAveragePooling2D layer
+   12. GlobalAveragePooling3D layer
+9. Recurrent layers 
+   1. LSTM layer
+   2. GRU layer
+   3. SimpleRNN layer
+   4. TimeDistributed layer
+   5. Bidirectional layer
+   6. ConvLSTM2D layer
+   7. Base RNN layer 
+10. Preprocessing layers
+   1. Text preprocessing
+      1. TextVectorization layer
+   2. Numerical features preprocessing layers
+      1. Normalization layer
+      2. Discretization layer
+   3. Categorical features preprocessing layers
+      1. CategoryEncoding layer
+      2. Hashing layer
+      3. StringLookup layer
+      4. IntegerLookup layer
+   4. Image preprocessing layers
+      1. Resizing layer
+      2. Rescaling layer
+      3. CenterCrop layer
+   5. Image augmentation layers
+      1. RandomCrop layer
+      2. RandomFlip layer
+      3. RandomTranslation layer 
+      4. RandomRotation layer
+      5. RandomZoom layer 
+      6. RandomHeight layer
+      7. RandomWidth layer
+11. Normalization layers 
+    1. BatchNormalization layer
+    2. LayerNormalization layer
+    
+12. Regularization layers 
+13. Attention layers 
+14. Reshaping layers 
+15. Merging layers 
+16. Locally-connected layers
+17. Activation layers 
+
+3. Callbacks API 
+----------------
+
+1. Base Callback class
+2. ModelCheckpoint
+3. TensorBoard
+4. EarlyStopping
+5. LearningRateScheduler
+6. ReduceLROnPlateau
+7. RemoteMonitor
+8. LambdaCallback
+9. TerminateOnNaN
+10. CSVLogger
+11. ProgbarLogger
+
+
+4. Data preprocessing
+---------------------
+
+1. Image data preprocessing 
+2. Timeseries data preprocessing
+3. Text data preprocessing
+
+
+
+
+
+
+
+
+
+
+
+ 

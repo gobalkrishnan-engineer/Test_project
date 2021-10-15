@@ -1,0 +1,20 @@
+1. Is Dart worth learning?
+2. Is Dart based on Python?
+3. Is Dart like Typescript?
+4. Can I use python with Flutter?
+5. Is Flutter better than KIVY?
+6. Why was Dart created?
+7. Is Dart language dead?
+8. HOw long will it take to learn Dart?
+9. How long does it take to learn Dart?
+10. What is Dart written in?
+11. Why is Dart not Kotlin?
+12. Does Flutter use TypeScript?
+13. is KIVY worth using?
+14. Why is KIVY not popular?
+15. What is the best GUI for python?
+16. Does Dart have a future?
+17. Should I learn java or flutter?
+18. Does Flutter use Dart?
+19. What does=> mean in Dart?
+2o. Should i learn dart before flutter?

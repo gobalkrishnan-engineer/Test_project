@@ -1,0 +1,10 @@
+'
+1. test account/ accoutant login
+2. fill form - employee
+3. accountant accept
+4. junior hr approval
+5. senior hr approval - pay amount
+6. junior hr approval - document [join document]
+7. employee login [epf]
+8. junior hr will approve - appointment letter
+

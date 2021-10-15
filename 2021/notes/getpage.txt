@@ -1,0 +1,168 @@
+1. Route Manager
+2. State Manager 
+3. Dependency Manager
+4. Extra Utilities 
+
+1. Route Manager
+================
+   * Helps you avoid boilerplate code for navigating in different screen.
+    
+   Get.to(page());
+
+2. State Manager 
+================
+
+  * no need to work with streams
+  * automatic disposal of states 
+  * no need of code generation 
+  * simple and short code. 
+
+3. Dependency manager 
+=====================
+
+  * final service = Get.find(ApiService)();
+
+4,Extra Utilites:
+================
+
+===============================================================================================
+
+GetX package
+------------
+
+1. About Get
+2. Installing 
+3. Counter App with GetX 
+4. The Three pillars 
+    1. State management 
+       1. Reactive State Manager 
+       2. More details about state management
+    2. Route management 
+       1. More details about route management
+    3. Dependency management 
+       1. More details about dependenccy management
+5. Utils 
+    1. Internationalization
+       1. Translations 
+          * Using translations 
+       2. Locales 
+          * Change locale
+          * System locale 
+    2. Change Theme
+    3. GetConnect
+       1. Default configuration
+       2. Custom configuration 
+    4. GetPage Middleware 
+       1. priority
+       2. redirect 
+       3. onPageCalled
+       4. onBindingsStart 
+       5. onPageBuildStart 
+       6. onPageBuilt
+       7. onPageDispose 
+    5. Other Advanced APIs
+       1. Optional Global Settings and Manual configurations 
+       2. Local State Widgets  
+          1. ValueBuilder
+          2. ObxValue 
+    6. Useful tips 
+       1. GetView
+       2. GetResponsiveView
+          1. How to use it 
+       3. GetWidget 
+       4. GetxService
+    7. Breaking changes from 2.0 
+    8. Why Getx?
+    
+
+1. GetX Introduction 
+2. Showing Snackbar using GetX
+      1. snackPosition 
+      2. titleText 
+      3. messageText 
+      4. colorText 
+      5. backgroundColor
+      6. borderRadius 
+      7. margin
+      8. maxWidth 
+      9. animationDuration 
+      10. backgroundGradient
+      11. borderColor 
+      12. borderWidth
+      13. boxShadows 
+      14. isDismissible
+      15. dismissDirection 
+      16. forwardAnimationCurve
+      17. icon
+      18. shouldIconPulse 
+      19. leftBarIndicatorColor 
+      20. mainButton
+      21. onTap
+      22. overlayBlur
+      23. overlayColor
+      24. padding 
+      25. showProgressIndicator
+      26. ProgressIndicatorBackgroundColor 
+      27. progressIndicatorValueColor 
+      28. AlwaysStoppedAnimation<Color>(Colors.white) 
+      29. reverseAnimationCurve
+      30. snackbarStatus 
+      31. userInputForm
+
+         
+
+3. Show Dialog with GetX library 
+      1. title
+      2. titleStyle
+      3. middleText
+      4. middleTextStyle 
+      5. backgroundColor
+      6. radius
+      7. context: Row()
+      8. textCancel
+      9. cancelTextColor 
+      10. textConfirm 
+      11. confirmTextColor 
+      12. onCancel 
+      13. onConfirm 
+      14. buttonColor
+      15. cancel
+      16. confirm
+      17. actions: []
+      18. barrierDismissible 
+
+3. BottomSheet and Dynamic Theme
+    1. Get.bottomSheet
+    2. Get.changeTheme(ThemeData.light())    
+    3. barrierColor : Colors.greenAccent.shade100
+    4. backgroundColor: 
+    5. isDismissible
+    6. shape: RoundedRectangleBorder()
+    7. enableDrag: false
+
+ 
+
+4. Navigator for Un-named Routes
+      1.fullscreenDialog: true,
+      2.transition: Transition.zoom
+      3.duration: Duration(milliseconds: 4000),
+      4.curve: Curves.bounceInOut,
+      5.Get.off()
+      6.Get.offAll();
+      7.Get.to(Home(),arguments:"")
+      8.print() 
+          
+
+5. Navigator for named routes 
+   1. initialRoute 
+   2. defaultTransition: Transition.zoom
+   3. getPages: [
+        GetPage(name:'/',page()=>)
+      ]      
+   4. transition: Transition.leftToRight
+
+
+
+
+7. Reactive State management 
+============================   

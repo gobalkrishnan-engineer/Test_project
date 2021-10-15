@@ -1,0 +1,40 @@
+Variable:
+--------
+printInteger(int a) =>  a*a;//Print to console.
+
+
+// This is where the app starts executing.
+ int? t;
+
+test1(){
+  print(t);
+  t = 0;
+  print(t);
+  var b =printInteger(t!);
+  print(b);
+}
+
+
+
+
+void main() {
+  t = printInteger(5);
+  print(t); 
+  test1();
+}
+
+
+------------------------------
+Function:
+
+
+add({int a:0, int b:3,int? c}){
+   return c!+b+a;
+}
+
+
+
+//main 
+void main() {
+ print(add(c:2,));
+}

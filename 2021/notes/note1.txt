@@ -1,0 +1,54 @@
+dart:core
+dart:async
+dart:math
+dart:convert
+dart:html
+dart:io
+
+dart:core -> numbers,collections,strings and more
+1. Printing to the console
+2. Numbers
+3. Strings and regular expressions
+4. Collections
+5. URIs
+6. Dates and times
+7. Utility class
+8. Exceptions
+
+dart:async -> asynchronous programming 
+1. Future
+2. Stream
+3. More information
+   1. Asynchronous programming: futures, async, await
+   2. Futures and error handling
+   3. Asynchronous programming: streams
+   4. Creating streams in Dart
+   5. Dart asynchronous programming: Isolates and event loops
+
+dart:math - math and random
+1. Trigonometry
+2. Maximum and minimum
+3. Math constants
+4. Random numbers
+5. More Information- Math reference api
+
+dart:convert - decoding and encoding JSON, UTF-8 and more
+1. Decoding and encoding JSON
+2. Decoding and encoding UTF-8 charaters
+3. Other functionality
+
+dart:html - browser-based apps
+1. Manipulating the DOM
+2. Using HTTP resources with HttpRequest
+3. Sending and receiving real-time data with WebSockets
+4. More information
+
+dart:io -> Servers and command-line apps
+1. Files and directories
+2. HTTP clients and servers
+3. More information
+
+
+
+
+

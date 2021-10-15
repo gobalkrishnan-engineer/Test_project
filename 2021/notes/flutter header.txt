@@ -1,0 +1,212 @@
+1. Get started
+2. Sample & tutorial 
+3. Development
+4. Testing & debugging
+5. Performance & optimization
+6. Deployment 
+7. Resources
+8. Reference
+-------------------------
+
+1. Get Started
+   1. install
+   2. Set up an editor
+   3. Test drive
+   4. Write your first app
+   5. Learn more 
+   -> From another platform ?
+      1. Dart language overview
+         1. Flutter for Android devs
+         2. Flutter for iOS devs
+         3. Flutter for React devs 
+         4. Flutter for web devs
+         5. Flutter for Xamarin.Forms devs
+         6. Introduction to declarative UI 
+      2. Building a web app 
+---------------------------------------------------
+2. Sample & tutorial 
+   1. Flutter Gallery [running app]
+   2. Flutter Gallery [repo]
+   3. Sample apps on GitHub
+   4. Cookbook
+   5. Codelabs
+   6. Tutorials 
+---------------------------------------------------
+3. Development 
+   1. User Interface
+      1. Introduction to widgets
+      2. Building layouts
+         1. Layouts in Flutter
+         2. Tutorial 
+         3. Creating adaptive and responsive apps
+         4. Understanding constraints [NEW]
+      3. Adding interactivity
+         1. Accessibility
+         2. Internationalization 
+      4. Assets and Images
+      5. Navigation & routing
+         1. Navigation in Flutter
+         2. Deep linking
+         3. URL strategies
+      6. Animations
+         1. Introduction
+         2. Overview
+         3. Tutorial
+         4. implicit animations
+         5. Hero animations
+         6. Staggered animations
+      7. Advanced UI 
+         1. Slivers
+         2. Gestures
+         3. Splash screens
+      8. Widget catalog
+   2. Data & backend
+      1. State management
+         1. Introduction
+         2. Think declaratively
+         3. Ephemeral vs app state
+         4. Simple app state management
+         5. Options 
+      2. Networking & http
+      3. JSON and serialization
+      4. Firebase
+   3. Accessibility & internationalization
+      1. Accessibility
+      2. Internationalization
+   4. Platform integration
+      1. Supported platforms
+      2. Adding iOS App Clip support
+      3. Apple Watch support
+      4. C interop
+      5. Hosting native Android and iOS views
+      6. Web FAQ
+      7. Writing platforms-specific code
+   5. Packages & plugins
+      1. Using packages
+      2. Developing packages & plugins
+      3. Flutter Favorites program
+      4. Background process
+      5. Android plugin upgrade
+      6. Package site
+   6. Add Flutter to existing app
+      1. Introduction 
+      2. Adding to an Android app
+         1. Project setup
+         2. Add a single Flutter screen 
+         3. Add a Flutter Fragment 
+         4. Add a Flutter View 
+         5. Plugin setup
+      3. Adding to an iOS app
+         1. Project setup
+         2. Add a single Flutter screen 
+      4. Debugging & hot reload
+      5. Loading sequence and performance
+      6. Multiple Flutter
+      7. instances 
+   7. Tools & features 
+      1. Android Studio & IntelliJ
+      2. DevTools
+         1. Overview
+         2. Install from Android Studio & IntelliJ
+         3. Install from VS Code
+         4. Install from command line
+         5. Flutter inspector
+         6. Performance view 
+         7. CPU Profiler view 
+         8. Memory view
+         9. Network view 
+         10. Debugger
+         11. Logging view 
+         12. App size tool
+      3. Flutter SDK
+         1. Overview
+         2. Upgrading 
+         3. Releases 
+         4. Breaking changes 
+         5. Release notes 
+      4. Flutter and the pubspec file
+      5. Hot reload 
+      6. Flutter Fix
+      7. Code formatting 
+      8. Web renderers
+   8. Migration notes 
+      1. AndroidX migration
+      2. Android plugin upgrade 
+      3. Developing for iOS 14
+      4. Xcode 11.4 support
+----------------------------------------------------
+4. Testing & debugging 
+-----------------------
+1. Debugging tools
+2. Debugging apps programmatically
+3. Using an OEM debugger
+4. Flutter's build modes 
+5. Common Flutter errors 
+6. Handling errors 
+7. Testing 
+8. Integration testing 
+-----------------------------------------------------
+5. Performance & optimization 
+-----------------------------
+   1. Overview
+   2. App size
+   3. Rendering performance
+      1. Overview
+      2. Performance best practices
+      3. Performance profiling
+      4. Reduce shader compilation jank
+   4. Performance metrics
+   5. Performance FAQ 
+   6. Appendix 
+-----------------------------------------------------
+6. Deployment 
+   1. Obfuscating Dart code
+   2. Creating flavors for Flutter
+   3. Build and release an Android app
+   4. Build and release an iOS app
+   5. Build and release a Linux app
+   6. Build and release a web app 
+   7. Continuous deployment 
+-----------------------------------------------------
+7. Resources 
+   1. Dart resources
+   2. Compatibility policy 
+   3. Architectural overview
+   4. Inside Flutter
+   5. Google Fonts package
+   6. Platform adaptations 
+   7. Videos and online courses
+   8. Books 
+   9. FAQ 
+   10. Design Documents 
+   11. Creating useful bug reports
+   12. Contributing to Flutter
+   13. Official brand assets 
+----------------------------------------------------- 
+8. References
+-------------
+   1. Who is Dash?
+   2. Widget index
+   3. API reference
+   4. flutter CLI reference
+   5. Package site
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

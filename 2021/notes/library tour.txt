@@ -1,0 +1,75 @@
+dart:async
+dart:collection
+dart:convert
+dart:core
+dart:developer
+dart:ffi
+dart:html
+dart:indexed_db
+dart:io
+dart:isolate
+dart:js
+dart:js_util
+dart:math 
+dart:mirrors 
+dart:svg
+dart:typed_data
+dart:web_audio 
+dart:web_gl 
+dart:web_sql 
+
+
+Core:
+ 1. dart:async -       Support for asynchronous programming, with classes such as Future and Stream 
+ 2. dart:collection -  Classes and utilities that supplement the collection support in dart:core 
+ 3. dart:convert -     Encoders and decoders for converting between different data representations, including JSON and UTF-8
+ 4. dart:core -        Built-in types, collections, and other core functionality for every Dart program 
+ 5. dart:developer -   Interact with developer tools such as the debugger and inspector 
+ 6. dart:math -        Mathematical constants and function, plus a random number generator 
+ 7. dart:typed_data -  Lists that efficiently handle fixed sized data (for example, unsigned 8 byte integers) and SIMD numeric types
+VM:
+ 1. dart:ffi -      Foreign Function interface for interoperability with the C programming language 
+ 2. dart:io -       File, socket, HTTP, and other I/O support for non-web applications 
+ 3. dart:isolate  - Concurrent programming using isolats: independent workers that are similar to threads but don't share memory, communicating only via messages.
+ 4. dart:mirrors -  Basic reflection in Dart, with support for introspection and dynamic invocation 
+Web:
+ 1. dart:html -        HTML elements and other resources for web-based applications that need to interact with the browser and the DOM (Document Object Model)
+ 2. dart:indexed_db -  A client-side key-value store with support for indexes
+ 3. dart:js -          Low-level support for interoperating with Javascript 
+ 4. dart:js_util -     Utility methods to manipulate (package:js) annotated Javascript interop objects in cases where the name to call is not known at runtime
+ 5. dart:svg -         Scalable Vector Graphics: Two-dimensional vector graphics with support for events and animations 
+ 6. dart:web_audio -   High-fidelity audio programming in the browser 
+ 7. dart:web_gl -      3D programming in the browser 
+ 8. dart:web_sql -     An API for storing data in the browser that can be queried with SQL 
+-------------------------------------------------------------------------
+
+Core: 
+1. async      : Classes, Extensions, Functions, Typedefs, Exceptions 
+2. collection : Classes 
+3. convert    : Classes, Constants, Functions, Exceptions 
+4. core       : Classes, Extensions, Constants, Functions, Typedefs, Exceptions
+5. developer  : Classes, Functions, Typedefs
+6. math       : Classes, Constants, Functions,
+7. typed_data : Classes
+
+VM: 
+1. ffi        : Classes, Extensions, Constants, Properties, Functions, Typedefs
+2. io         : Classes, Constants, Properties, Functions, Enums, Typedefs, Exceptions, 
+3. isolate    : Classes, Exceptions, 
+4. mirrors    : Classes, Functions, 
+
+Web: 
+
+1. html       : Classes, Properties, Functions, Typedefs, 
+2. indexed_db : Classes, Typedefs
+3. js         : Classes, Properties, Functions, 
+4. js_util    : Functions, Exceptions, 
+5. svg        : Classes
+6. web_audio  : Classes, 
+7. web_gl     : Classes
+8. web_sql    : Classes, Typedefs,
+
+
+
+ 
+

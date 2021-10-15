@@ -1,0 +1,130 @@
+1. Animation
+2. Design
+3. Effects 
+4. Forms 
+5. Gestures
+6. Images 
+7. Lists 
+8. Maintenance
+9. Navigation
+10.Networking
+11.Persistence
+12.Plugins
+13.Testing
+   1. Integration
+   2. Unit
+   3. Widget
+   
+
+1. Animation
+------------
+  1. Animate a page route transition - Route,PageRouteBuilder,Tween,CurveTween,SlideTransition
+  2. Animate a widget using simulation - SingleTickerProviderStateMixin,AnimationController,Animation<>,AlignmentTween,Offset,SpringDescription,SpringSimulation,MediaQuery,GestureDetector,
+  3. Animate the properties of a container - BorderRadiusGeometry,AnimatedContainer,Curves,Random
+  4. Fade a widget in and out - Animate Opacity.
+
+2. Design
+---------
+  1. Add a Drawer to a screen  - Drawer, DrawerHeader,ListTile
+  2. Display a snackbar -  SnackBar, SnackBarAction, ScaffoldMessenger.of(context).showSnackBar().
+  3. Export fonts from a package - adding ttf file format
+  4. Update the UI based on orientation - OrientationBuilder, GridView;
+  5. Use a custom font - adding double ttf
+  6. Use themes to share colors and font styles - using theme data.
+  7. Work with tabs - 
+
+3. Effects 
+----------
+  1. Create a download button
+  2. Create a nested navigation flow 
+  3. Create a photo filter carousel
+  4. Create a scrolling parallax effect
+  5. Create a shimmer loading effect 
+  6. Create a staggered menu animation
+  7. Create a typing indicator
+  8. Create an expandable FAB
+  9. Create gradient chat bubbles 
+  10. Drag a UI element 
+
+4. Forms 
+--------
+  1. Build a form with validation
+  2. Create and style a text field
+  3. Focus and text fields
+  4. Handle changes to a text field 
+  5. Retrieve the value of a text field 
+  
+5. Gestures
+-----------
+  1. Add Material touch ripples
+  2. Handle taps 
+  3. Implement swipe to dismiss
+
+6. Images
+---------
+   1. Display images from the internet 
+   2. Fade in images with a placeholder 
+   3. Work with cached images
+   
+7. Lists
+--------
+   1. Create a grid list
+   2. Create a horizontal list
+   3. Create lists with different types of items
+   4. Place a floating app bar above a list
+   5. Use lists
+   6. Work with long lists
+
+8. Maintenance
+--------------
+   1. Report errors to a services
+
+9. Navigation 
+-------------
+   1. Animate a widget across screens 
+   2. Navigate to a new screen and back  
+   3. Navigate with named routes
+   4. Pass arguments to a named route
+   5. Return data from a screen 
+   6. Send data to a new screen 
+
+10. Networking 
+--------------
+   1. Delete data on the internet
+   2. Fetch data from the internet 
+   3. Make authenticated request
+   4. Parse JSON in the background 
+   5. Send data to the internet 
+   6. Update data over the internet
+   7. Work with WebSockets
+ 
+11. Persistence
+---------------
+   1. Persist data with SQLite
+   2. Read and write files
+   3. Store key-value data on disk 
+
+12. Plugins 
+-----------
+   1. Play and pause a video 
+   2. Take a picture using the camera
+
+13. Testing 
+-----------
+   1. Integration 
+   --------------
+       1. An introduction to integration testing
+       2. Handle scrolling
+       3. Performance profiling
+   2. Unit
+   -------
+       1. An introduction to unit testing
+       2. Mock dependencies using Mockito
+   
+   3. Widget
+   ---------
+       1. An introduction to widget testing 
+       2. Find widgets
+       3. Tap, drag, and enter text
+
+ 

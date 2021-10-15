@@ -1,0 +1,14 @@
+History: 
+
+1. Dart was unveiled at the GOTO conference in Aarhus, Denmark, October 10-12,2011.
+2. The project was founded by Lars Bak and Kasper Lund 
+3. Dart 1.0 was released on November 14, 2013
+4. Dart Initially had a mixed reception & the Dart initiative has been criticized by some for fragmenting the web, due to the original plans
+to include a Dart VM in Chrome.
+5. Those plans were dropped in 2015 with the 1.9 release of Dart to focus instead on compiling Dart to Javascript 
+6. In August 2018, Dart 2.0 was released, with language changes including a sound type system
+7. Dart 2.6 Introduced a new extension, dart2native. 
+8. The feature extends native compilation to the Linux, macOs, and windows desktop platforms.
+9. Earlier developers were able to create new tools only using Android or iOS devices 
+10. The new extension is also integrated with Flutter toolkit.
+

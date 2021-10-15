@@ -1,0 +1,55 @@
+1. dart:core    - Built- in types, collections , and other core functionality. 
+2. dart:async   - Support for asynchronous programming, with classes such as Future and Stream.
+3. dart:math    - Mathematical constants and functions, plus a random number generator.
+4. dart:convert - Encoders and decoders for converting between different data representations, including JSON and UTF-8.
+5. dart:html    - DOM and other APIs for browser-based apps.
+6. dart:io      - I/O for programms that can use the Dart VM, including Flutter apps, servers, and command-line scripts.
+
+=====================================
+
+1. dart:core - numbers, collections, strings, and more 
+------------------------------------------------------
+  1. Printing to the console
+  2. Numbers
+  3. Strings and regular expressions
+  4. Collections 
+  5. URI
+  6. Dates and times
+  7. Utility classes
+  8. Exceptions 
+
+2. dart:async - asynchronous programming 
+----------------------------------------
+  1. Future
+  2. Stream 
+  3. More information 
+
+3. dart:math - math and random
+------------------------------
+  1. Trigonometry 
+  2. Maximumn and minimum 
+  3. Math constants
+  4. Random numbers
+  5. More information 
+
+4. dart:convert - decoding and encoding JSON, UTF-8 and more
+------------------------------------------------------------
+  1. Decoding and encoding JSON
+  2. Decoding and encoding UTF-8 characters
+  3. Other functionality 
+
+5. dart:html - browser-based apps 
+---------------------------------
+  1. Manipulating the DOM
+  2. Using HTTP resources with HttpRequest 
+  3. Sending and receiving real-time data with WebSockets
+  4. More information
+
+6. dart:io - I/O for servers and command-line apps
+--------------------------------------------------
+  1. Files and directories
+  2. Http clients and servers
+  3. More informations 
+
+
+7. Summary.

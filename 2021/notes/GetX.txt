@@ -1,0 +1,98 @@
+1. About Get 
+2. Installing 
+3. Counter App with GetX 
+4. The Three pillars 
+   1. State management 
+      1. Reactive State Manager 
+      2. More details about state management 
+   2. Route management 
+      1. More details about route management 
+   3. Dependency management
+      1. More details about dependency management 
+5. Utils 
+   1. Internationalization
+      1. Translation
+         1. Using translations
+      2. Locales
+         1. Change locale
+         2. System locale
+   2. Change Theme
+   3. GetConnect
+         1. Default configuration
+         2. Custom configuration
+   4. GetPage Middleware 
+         1. Priority 
+         2. Redirect
+         3. onPageCalled
+         4. onBindingsStart
+         5. onPageBuildStart
+         6. onPageBuilt
+         7. onPageDispose  
+   5. Other Advanced APIs
+         1. Optional Global Settings and Manual configurations 
+         2. Local State Widgets 
+            1. ValueBuilder -
+            2. ObxValue - 
+         3. Useful tips
+            1. GetView -
+            2. GetResponseView
+               1. How to use it 
+            3. GetWidget - 
+            4. GetxService - 
+   6. Useful tips
+
+6. Breaking changes from 2.0
+7. Why GetX?
+8. Community
+   1. Community channels 
+
+=============================================
+1.    5 = Getx Introduction
+2.   18 = Getx Snackbar
+3.   10 = Show Dialog
+4.    8 = Bottom Sheet and Dynamic Theme
+5.   11 = Route Navigation for Un-named Routes 
+6.   12 = Route Navigation for named Routes 
+7.    8 = State Management - Reactive State Manager
+8.    8 = State Management - Obx and Custom Class
+9.    9 = GetXController   - separating the UI Code and Business Logic in GetX 
+10.   6 = Reactive State Manager - GetX Controller Type 
+11.   6 = State Management - Simple State Manager 
+12.   6 = GetXController Lifecycle methods 
+13.   5 = Flutter GetX Unique ID 
+14.   7 = Understanding GetX Workers 
+15.   7 = Implementing Internationalization in Flutter using GetX 
+16.   9 = Dependency Injection - Get.put - Get.lazyPut - Get.putAsync - Get.create
+17.   6 = Flutter GetX Service
+18.  13 = Understanding Flutter GetX Binding 
+19.  15 = Fetch & Display API Data in Flutter using GetX 
+20.   9 = Flutter Get Storage and Email Validation 
+21.   8 = GetView and GetWidget in GetX
+22.  14 = Get CLI and its different commands 
+23.  12 = Fetch API Data with GetConnect & StateMixin in GetX 
+32.  15 = Check & Listen for Internet Connectivity Changes 
+33.  15 = Image Picker from Camera & Gallery using GetX 
+34.  11 = Image Cropping & Compressing 
+35.  13 = FaceId/Fingerprint/Touch ID Local Authentication
+========
+36.  16 = Text Extractor from Image using Firebase ML kit and GetX 
+37.  5  = Barcode Detector
+38.  5  = Image Label 
+39. 20  = Working with ScrollController and ScrollNotification 
+40. 21  = Carousel Slider 
+41. 14  = Play video in flutter using Chewie and GetX
+42. 11  = Draggable Scrollable Sheet & Highlight Selected item in Listview 
+43. 16  = Auto Form Validation 
+44. 14  = Draggrable & Drag Target 
+45. 20  = Draggable Drag Traget 
+46. 17  = Speech To Text 
+47. 30  = Persistent Animated Dynamic Theme
+48. 12  = Responsive UI Design
+49. 10. = ReorderableListView 
+50. 11  = Animated Bottom Navigation Bar
+51. 30  = Signature Widget & Exporting the Signature 
+52. 30  = Google signin 
+53. 31  = Middleware Deep Dive.  
+
+
+   

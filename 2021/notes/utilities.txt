@@ -1,0 +1,15 @@
+Fragment -> it is subactivity of the Fragment 
+---------------------------------------------
+
+1. onAttach(Activity)
+2. onCreate(Bundle)
+3. onCreateView(LayoutInflater,ViewGroup, Bundle)
+4. onActivityCreated(Bundle)
+5. onViewStateRestored(Bundle) 
+6. OnStart()
+7. onResume()
+8. onPause()
+9. onStop()
+10. onDestroyView()
+11. onDistroy)
+12. onDetached()
